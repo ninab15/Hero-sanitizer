@@ -1,0 +1,58 @@
+.navbar {
+    background-color: transparent;
+}
+
+.hero {
+    background-image: url(img/hero-backroundimg.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+}
+
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #414343;
+    font-size: 3rem;
+
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.about {
+    background: #abbcc6;
+}
+
+span {
+    font-size: 6rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer {
+    background: #cdc1b3;
+    height: 15vh;
+}
