@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background-image: url(img/hero-backroundimg.png);
+    background-image: url(img/hero_mobil.jpg);
     background-size: cover;
     height: 100vh;
     background-position: 50%;
@@ -55,4 +55,10 @@ span {
 footer {
     background: #cdc1b3;
     height: 15vh;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: url(img/hero_splash.jpg);
+    }
 }
