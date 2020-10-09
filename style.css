@@ -98,6 +98,8 @@ a {
     font-size: 1rem;
     text-transform: uppercase;
     color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .about {
