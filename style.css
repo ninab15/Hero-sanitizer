@@ -2,6 +2,14 @@
     background-color: transparent;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 .wrapper-menu {
     display: inline-block;
     cursor: pointer;
@@ -61,8 +69,8 @@
 
 h1 {
     font-family: 'Work Sans', sans-serif;
-    color: #414343;
-    font-size: 3rem;
+    color: black;
+    font-size: 2rem;
 
 }
 
@@ -88,6 +96,13 @@ h4 {
     color: black;
 }
 
+h5 {
+
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -102,21 +117,28 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
 .about {
     background: #abbcc6;
 }
 
 span {
     font-size: 6rem;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Macondo', cursive;
 }
 
-footer {
-    background: #cdc1b3;
-    height: 15vh;
-}
+
 
 @media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
     .hero {
         background-image: url(img/hero_splash.jpg);
     }
